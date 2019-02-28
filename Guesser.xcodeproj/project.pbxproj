@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3F88ECE32226166A006A4504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F88ECE22226166A006A4504 /* AppDelegate.swift */; };
-		3F88ECE52226166A006A4504 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F88ECE42226166A006A4504 /* FirstViewController.swift */; };
-		3F88ECE72226166A006A4504 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F88ECE62226166A006A4504 /* SecondViewController.swift */; };
+		3F88ECE52226166A006A4504 /* GuesserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F88ECE42226166A006A4504 /* GuesserViewController.swift */; };
+		3F88ECE72226166A006A4504 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F88ECE62226166A006A4504 /* HistoryViewController.swift */; };
 		3F88ECEA2226166A006A4504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F88ECE82226166A006A4504 /* Main.storyboard */; };
 		3F88ECEC2226166C006A4504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F88ECEB2226166C006A4504 /* Assets.xcassets */; };
 		3F88ECEF2226166C006A4504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F88ECED2226166C006A4504 /* LaunchScreen.storyboard */; };
+		3F88ECF7222628D0006A4504 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F88ECF6222628D0006A4504 /* StatisticsViewController.swift */; };
+		3F88ECF922263291006A4504 /* Guesser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F88ECF822263291006A4504 /* Guesser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F88ECDF2226166A006A4504 /* Guesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guesser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F88ECE22226166A006A4504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F88ECE42226166A006A4504 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3F88ECE62226166A006A4504 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3F88ECE42226166A006A4504 /* GuesserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuesserViewController.swift; sourceTree = "<group>"; };
+		3F88ECE62226166A006A4504 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		3F88ECE92226166A006A4504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F88ECEB2226166C006A4504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F88ECEE2226166C006A4504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F88ECF02226166C006A4504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F88ECF6222628D0006A4504 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		3F88ECF822263291006A4504 /* Guesser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guesser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				3F88ECE22226166A006A4504 /* AppDelegate.swift */,
-				3F88ECE42226166A006A4504 /* FirstViewController.swift */,
-				3F88ECE62226166A006A4504 /* SecondViewController.swift */,
+				3F88ECE42226166A006A4504 /* GuesserViewController.swift */,
+				3F88ECE62226166A006A4504 /* HistoryViewController.swift */,
 				3F88ECE82226166A006A4504 /* Main.storyboard */,
 				3F88ECEB2226166C006A4504 /* Assets.xcassets */,
 				3F88ECED2226166C006A4504 /* LaunchScreen.storyboard */,
 				3F88ECF02226166C006A4504 /* Info.plist */,
+				3F88ECF6222628D0006A4504 /* StatisticsViewController.swift */,
+				3F88ECF822263291006A4504 /* Guesser.swift */,
 			);
 			path = Guesser;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F88ECE72226166A006A4504 /* SecondViewController.swift in Sources */,
+				3F88ECE72226166A006A4504 /* HistoryViewController.swift in Sources */,
 				3F88ECE32226166A006A4504 /* AppDelegate.swift in Sources */,
-				3F88ECE52226166A006A4504 /* FirstViewController.swift in Sources */,
+				3F88ECF922263291006A4504 /* Guesser.swift in Sources */,
+				3F88ECE52226166A006A4504 /* GuesserViewController.swift in Sources */,
+				3F88ECF7222628D0006A4504 /* StatisticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
